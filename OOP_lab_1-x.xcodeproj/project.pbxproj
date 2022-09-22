@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		17CD9E9228DCD30E00743641 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17CD9E9128DCD30E00743641 /* main.cpp */; };
+		17CD9E9B28DCD4A300743641 /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17CD9E9928DCD4A300743641 /* Triangle.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		17CD9E8E28DCD30E00743641 /* OOP_lab_1-x */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OOP_lab_1-x"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17CD9E9128DCD30E00743641 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		17CD9E9928DCD4A300743641 /* Triangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Triangle.cpp; sourceTree = "<group>"; };
+		17CD9E9A28DCD4A300743641 /* Triangle.hpp */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.cpp.h; path = Triangle.hpp; sourceTree = "<group>"; tabWidth = 2; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +60,19 @@
 		17CD9E9028DCD30E00743641 /* OOP_lab_1-x */ = {
 			isa = PBXGroup;
 			children = (
+				17CD9E9C28DCD56500743641 /* Triangle */,
 				17CD9E9128DCD30E00743641 /* main.cpp */,
 			);
 			path = "OOP_lab_1-x";
+			sourceTree = "<group>";
+		};
+		17CD9E9C28DCD56500743641 /* Triangle */ = {
+			isa = PBXGroup;
+			children = (
+				17CD9E9A28DCD4A300743641 /* Triangle.hpp */,
+				17CD9E9928DCD4A300743641 /* Triangle.cpp */,
+			);
+			path = Triangle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17CD9E9228DCD30E00743641 /* main.cpp in Sources */,
+				17CD9E9B28DCD4A300743641 /* Triangle.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,9 +6,12 @@
 //
 
 #include <iostream>
+#include "Triangle.hpp"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    Triangle triangle(5, 6);
+
+    
+    std::cout << "hypotenuse: " << triangle.hypotenuse() << std::endl;
     return 0;
 }
