@@ -7,11 +7,15 @@
 
 #include <iostream>
 #include "Triangle.hpp"
+#include "makeTriangle.hpp"
 
-int main(int argc, const char * argv[]) {
-    Triangle triangle(5, 6);
+int main() {
+    Triangle triangle = makeTriangle(5, 6);
 
-    
-    std::cout << "hypotenuse: " << triangle.hypotenuse() << std::endl;
+    triangle.display();
+
+    triangle.read();
+    triangle.display();
+
     return 0;
 }

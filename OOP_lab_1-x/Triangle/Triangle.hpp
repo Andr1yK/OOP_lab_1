@@ -8,19 +8,28 @@
 #ifndef Triangle_hpp
 #define Triangle_hpp
 
-class Triangle
-{
-  private:
-    int unsigned first;
-    int unsigned second;
+using namespace std;
 
-  public:
-    Triangle(int sideA, int sideB);
-    void setFirst(int side);
-    void setSecound(int side);
+class Triangle {
+private:
+  int unsigned first;
+  int unsigned second;
+  double hypotenuse();
+  bool isValidInput(int value);
+  bool isValidInput(int  sideA, int sideB);
 
-    double hypotenuse();
+public:  
+  bool init(int sideA, int sideB);
+  
+  void read();
+  
+  void display();
+
+  int unsigned getFirst();
+  void setFirst(int side);
+
+  int unsigned getSecound();
+  void setSecound(int side);
 };
-
 
 #endif /* Triangle_hpp */

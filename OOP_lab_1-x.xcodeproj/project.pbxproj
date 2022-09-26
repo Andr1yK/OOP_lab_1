@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17BC109728E257C90094B6DA /* makeTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17BC109528E257C90094B6DA /* makeTriangle.cpp */; };
 		17CD9E9228DCD30E00743641 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17CD9E9128DCD30E00743641 /* main.cpp */; };
 		17CD9E9B28DCD4A300743641 /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17CD9E9928DCD4A300743641 /* Triangle.cpp */; };
 /* End PBXBuildFile section */
@@ -24,10 +25,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		17BC109528E257C90094B6DA /* makeTriangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = makeTriangle.cpp; sourceTree = "<group>"; };
+		17BC109628E257C90094B6DA /* makeTriangle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = makeTriangle.hpp; sourceTree = "<group>"; };
 		17CD9E8E28DCD30E00743641 /* OOP_lab_1-x */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OOP_lab_1-x"; sourceTree = BUILT_PRODUCTS_DIR; };
-		17CD9E9128DCD30E00743641 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		17CD9E9928DCD4A300743641 /* Triangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Triangle.cpp; sourceTree = "<group>"; };
-		17CD9E9A28DCD4A300743641 /* Triangle.hpp */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.cpp.h; path = Triangle.hpp; sourceTree = "<group>"; tabWidth = 2; };
+		17CD9E9128DCD30E00743641 /* main.cpp */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; tabWidth = 2; };
+		17CD9E9928DCD4A300743641 /* Triangle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; indentWidth = 2; lineEnding = 0; path = Triangle.cpp; sourceTree = "<group>"; tabWidth = 2; };
+		17CD9E9A28DCD4A300743641 /* Triangle.hpp */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.cpp.h; path = Triangle.hpp; sourceTree = "<group>"; tabWidth = 2; wrapsLines = 1; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +74,8 @@
 			children = (
 				17CD9E9A28DCD4A300743641 /* Triangle.hpp */,
 				17CD9E9928DCD4A300743641 /* Triangle.cpp */,
+				17BC109528E257C90094B6DA /* makeTriangle.cpp */,
+				17BC109628E257C90094B6DA /* makeTriangle.hpp */,
 			);
 			path = Triangle;
 			sourceTree = "<group>";
@@ -134,6 +139,7 @@
 			files = (
 				17CD9E9228DCD30E00743641 /* main.cpp in Sources */,
 				17CD9E9B28DCD4A300743641 /* Triangle.cpp in Sources */,
+				17BC109728E257C90094B6DA /* makeTriangle.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
